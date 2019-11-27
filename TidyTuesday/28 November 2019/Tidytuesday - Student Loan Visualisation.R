@@ -31,7 +31,7 @@ loanGrowth <- quarterlyLoan %>% group_by(Quarterly) %>%
 
   
 #visualisation   
-plot <- ggplot(loanGrowth, aes(x = Quarterly, y =value, fill = variable)) +
+ggplot(loanGrowth, aes(x = Quarterly, y =value, fill = variable)) +
   geom_area(alpha = 0.80) + geom_label(
     label="Only 2.8% loan paid on average", hjust = 0.79, vjust = 0.8,
     x= as.Date("2018-06-01"),
@@ -65,5 +65,5 @@ labs(title = "'A Debt Crisis?'",
         legend.justification = "top")  +
   scale_fill_discrete(name = "", labels = c("Outstanding Loan", "Loan Paid"))
 
-ggsave("Student Loan.png", plot)
+ggsave("Student Loan.png", last_plot())
 
