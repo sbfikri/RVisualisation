@@ -59,7 +59,7 @@ a <- averageHourly %>% ggplot() +
   labs(x = "Time",
        y = "",
        title = "'Night and Day'",
-       subtitle = "Average amount of Philadelphia's parking violation fines in  2017\nMonth :{closest_state}",
+       subtitle = "Average amount of Philadelphia parking violation fines in 2017\nMonth :{closest_state}",
        caption = "Source: Philly Open Data | Phily Open Data | Graph by https://github.com/sbfikri") +
   transition_states(month, transition_length = 2, state_length = 0) +
   ease_aes('linear') +

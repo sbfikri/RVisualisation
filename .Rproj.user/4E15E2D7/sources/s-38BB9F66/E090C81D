@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1575666092376.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "E090C81D",
-    "lastKnownWriteTime" : 1575665362,
-    "last_content_update" : 1575666184774,
+    "lastKnownWriteTime" : 1575666479,
+    "last_content_update" : 1575666479301,
     "path" : "~/Documents/Github/RVisualisation/TidyTuesday/Week 49 - Phily Parking Violation/Philadelphia Parking Violation.R",
     "project_path" : "TidyTuesday/Week 49 - Phily Parking Violation/Philadelphia Parking Violation.R",
     "properties" : {
-        "cursorPosition" : "78,0",
-        "scrollLine" : "47"
+        "cursorPosition" : "68,0",
+        "scrollLine" : "55"
     },
     "read_only" : false,
     "read_only_alternatives" : [
